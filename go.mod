@@ -77,9 +77,9 @@ require (
 	github.com/hashicorp/memberlist v0.5.0
 	github.com/hashicorp/net-rpc-msgpackrpc v0.0.0-20151116020338-a14192a58a69
 	github.com/hashicorp/nomad/api v0.0.0-20230103221135-ce00d683f9be
-	github.com/hashicorp/raft v1.5.0
+	github.com/hashicorp/raft v1.6.0
 	github.com/hashicorp/raft-autopilot v0.1.6
-	github.com/hashicorp/raft-boltdb/v2 v2.2.2
+	github.com/hashicorp/raft-boltdb/v2 v2.3.0
 	github.com/hashicorp/serf v0.10.1
 	github.com/hashicorp/vault/api v1.9.1
 	github.com/hashicorp/vault/sdk v0.9.0
@@ -122,10 +122,10 @@ require (
 	github.com/zclconf/go-cty-yaml v1.0.3
 	go.etcd.io/bbolt v1.3.7
 	go.uber.org/goleak v1.2.1
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.14.0
 	golang.org/x/exp v0.0.0-20230728194245-b0cb94b80691
-	golang.org/x/sync v0.2.0
-	golang.org/x/sys v0.10.0
+	golang.org/x/sync v0.4.0
+	golang.org/x/sys v0.13.0
 	golang.org/x/time v0.3.0
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.30.0
@@ -133,6 +133,8 @@ require (
 	gopkg.in/tomb.v2 v2.0.0-20140626144623-14b3d72120e8
 	oss.indeed.com/go/libtime v1.6.0
 )
+
+require github.com/hashicorp/go-msgpack/v2 v2.1.1 // indirect
 
 require (
 	cloud.google.com/go v0.107.0 // indirect
@@ -270,12 +272,12 @@ require (
 	github.com/vmware/govmomi v0.18.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/mod v0.11.0 // indirect
-	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/mod v0.13.0 // indirect
+	golang.org/x/net v0.16.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
-	golang.org/x/term v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/term v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/tools v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.103.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect

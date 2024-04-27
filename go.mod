@@ -37,7 +37,7 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.0.0
 	github.com/golang/protobuf v1.5.2
 	github.com/golang/snappy v0.0.4
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/gosuri/uilive v0.0.4
@@ -112,9 +112,9 @@ require (
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/ryanuber/go-glob v1.0.0
 	github.com/shirou/gopsutil/v3 v3.23.4
-	github.com/shoenig/go-landlock v0.1.5
+	github.com/shoenig/go-landlock v1.2.1
 	github.com/shoenig/go-m1cpu v0.1.6
-	github.com/shoenig/test v0.6.7
+	github.com/shoenig/test v1.7.0
 	github.com/skratchdot/open-golang v0.0.0-20160302144031-75fb7ed4208c
 	github.com/stretchr/testify v1.8.4
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
@@ -125,7 +125,7 @@ require (
 	golang.org/x/crypto v0.11.0
 	golang.org/x/exp v0.0.0-20230728194245-b0cb94b80691
 	golang.org/x/sync v0.2.0
-	golang.org/x/sys v0.10.0
+	golang.org/x/sys v0.16.0
 	golang.org/x/time v0.3.0
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.30.0
@@ -133,6 +133,8 @@ require (
 	gopkg.in/tomb.v2 v2.0.0-20140626144623-14b3d72120e8
 	oss.indeed.com/go/libtime v1.6.0
 )
+
+require github.com/hashicorp/go-set/v2 v2.1.0 // indirect
 
 require (
 	cloud.google.com/go v0.107.0 // indirect
@@ -285,5 +287,5 @@ require (
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	kernel.org/pub/linux/libs/security/libcap/psx v1.2.66 // indirect
+	kernel.org/pub/linux/libs/security/libcap/psx v1.2.69 // indirect
 )
